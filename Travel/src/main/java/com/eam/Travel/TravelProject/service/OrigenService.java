@@ -18,5 +18,25 @@ public class OrigenService {
     public List<Origen> listarOrigen() {
         return origenRepository.findAll();
     }
+
+    public Origen buscarOrigen(Long id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'buscarOrigen'");
+    }
+
+    public Origen guardarOrigen(Origen origen) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'guardarOrigen'");
+    }
+
+    public Origen actualizarOrigen(Long id, Origen origen) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actualizarOrigen'");
+    }
+
+    public void eliminarOrigen(Long id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'eliminarOrigen'");
+    }
     
 }

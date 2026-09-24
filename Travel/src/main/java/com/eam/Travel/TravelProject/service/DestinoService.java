@@ -19,4 +19,24 @@ public class DestinoService {
         return destinoRepository.findAll();
     }
 
+    public Destino buscarDestino(Long id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'buscarDestino'");
+    }
+
+    public Destino guardarDestino(Destino destino) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'guardarDestino'");
+    }
+
+    public Destino actualizarDestino(Long id, Destino destino) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actualizarDestino'");
+    }
+
+    public void eliminarDestino(Long id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'eliminarDestino'");
+    }
+
 }
